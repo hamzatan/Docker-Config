@@ -26,6 +26,7 @@ More paramters can be added into the cloud-config file, refer to [Cloudinit] (ht
 Use ros install to install the iso to disk and use parameter -d to define the disk 
 
 ```
+scp cloud-config.yml user@server-ip:/home/user/cloud-config.yml 
 sudo ros install -c cloud-config.yml -d /dev/sda
 ```
 
